@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tourisum_App</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="email">Username</string>
+    <string name="pass">Password</string>
+    <string name="registre">Register</string>
+    <string name="R_FirstName">FirstName</string>
+    <string name="R_lastName">LastName</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

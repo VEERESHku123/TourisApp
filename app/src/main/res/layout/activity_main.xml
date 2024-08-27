@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@drawable/img"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome "
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:shadowRadius="25"
+        android:shadowColor="#4527A0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make journy memoriable with us.."
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:shadowRadius="25"
+        android:shadowColor="#4527A0"/>
+
+</RelativeLayout>

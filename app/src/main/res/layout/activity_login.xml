@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="750dp"
+        android:background="@drawable/background_view"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:shadowColor="#6A1B9A"
+        android:shadowRadius="30"
+        android:shadowDx="20"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginRight="50dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/baseline_person"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/black"
+        android:hint="@string/email"
+        android:padding="10dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="10"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="50dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/baseline_password"
+        android:drawablePadding="10dp"
+        android:drawableTint="#333447"
+        android:hint="@string/pass"
+        android:padding="10dp"
+        android:shadowColor="@color/black"
+        android:inputType="textPassword"
+        android:shadowRadius="10"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/login"
+        android:shadowRadius="20"
+        android:shadowColor="@color/black"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="(or)"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:text="register"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/googleBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/img_8"
+        android:layout_below="@+id/register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+
+</RelativeLayout>
