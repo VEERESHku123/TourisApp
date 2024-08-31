@@ -12,7 +12,7 @@ Table of Contents:
 Features:
 -Userfriendly app
 -Itinerary Planner: Create and manage your travel itineraries.
--User Reviews: Read reviews from other travelers and share your experiences.
+-User Reviews:  share your experiences by writing review.
 -Offline Mode: Access saved information even when offline.
 
 Working Video:
