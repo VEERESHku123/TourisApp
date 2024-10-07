@@ -5,7 +5,7 @@ Welcome to the Tourism App! This app is designed to help travelers explore new d
 
 Table of Contents:
 1.Features
-2.Screenshots
+2.Working Video
 3.Usage
 4.Technologies Used
 
